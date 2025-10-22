@@ -1,60 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Projetos e ações sociais da ONG Valentine Estágios.">
-  <title>Valentine Estágios — Projetos</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projetos | ONG Valentine</title>
+  <meta name="description" content="Conheça os projetos sociais da ONG Valentine e descubra como o amor transforma vidas.">
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-  <header class="site-header">
-    <picture>
-      <img src="imagens/valentine-logo.png" alt="Logo ONG Valentine" width="140" height="100">
-    </picture>
 
-    <nav aria-label="Navegação principal">
-      <ul class="nav-list">
-        <li><a href="index.html">Início</a></li>
-        <li><a href="projetos.html">Projetos</a></li>
-        <li><a href="cadastro.html">Cadastro</a></li>
-      </ul>
-    </nav>
+<body>
+  <header>
+    <section>
+      <a href="index.html">
+        <picture>
+          <source srcset="imagens/valentine-logo.webp" type="image/webp">
+          <img src="imagens/valentine-logo.png" alt="Logo da ONG Valentine" width="140" height="60">
+        </picture>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="cadastro.html">Cadastro</a></li>
+        </ul>
+      </nav>
+    </section>
   </header>
 
   <main>
-    <section class="intro" aria-labelledby="projects-title">
-      <section class="container">
-        <h1 id="projects-title">Projetos e Ações Sociais</h1>
-        <p>Conheça nossos projetos que unem educação, estágio e impacto social. Cada ação é uma oportunidade para desenvolver habilidades e contribuir com a comunidade.</p>
-        <img src="imagens/Voluntarios-projeto-social.png" alt="Voluntários em um projeto social" width="900" height="600">
+    <header>
+      <h1>Projetos da ONG Valentine</h1>
+      <p>Conheça alguns dos nossos projetos que levam amor, solidariedade e oportunidades a quem mais precisa.</p>
+    </header>
+
+    <article>
+      <header>
+        <h2>💞 Projeto Corações em Ação</h2>
+      </header>
+      <figure>
+        <img src="imagens/Coracao.png" alt="Voluntários entregando doações" class="hero-img" width="350" height="200">
+        <figcaption>Mais que doação, é demonstração de amor.</figcaption>
+      </figure>
+      <section>
+        <p><strong>Objetivo:</strong> Promover ações solidárias mensais com doação de roupas, alimentos e brinquedos em comunidades carentes.</p>
+        <p><strong>Descrição:</strong> Voluntários se reúnem para arrecadar e entregar doações, levando também afeto e escuta às famílias.</p>
       </section>
-    </section>
+    </article>
+
+    <article>
+      <header>
+        <h2>🌱 Projeto Raízes do Amanhã</h2>
+      </header>
+      <figure>
+        <img src="imagens/raizes.png" alt="Jovens participando de oficina profissional" class="hero-img" width="350" height="200">
+        <figcaption>Plantando conhecimento, colhendo futuro.</figcaption>
+      </figure>
+      <section>
+        <p><strong>Objetivo:</strong> Oferecer oficinas de capacitação profissional e orientação para o mercado de trabalho.</p>
+        <p><strong>Descrição:</strong> Aulas gratuitas de informática, marketing digital e empreendedorismo, voltadas a jovens e mulheres.</p>
+      </section>
+    </article>
+
+    <article>
+      <header>
+        <h2>💻 Projeto Jovem Digital</h2>
+      </header>
+      <figure>
+        <img src="imagens/tecnologia.png" alt="Jovens aprendendo tecnologia" class="hero-img" width="350" height="200">
+        <figcaption>Do aprendizado à oportunidade.</figcaption>
+      </figure>
+      <section>
+        <p><strong>Objetivo:</strong> Capacitar jovens em tecnologia e conectá-los com oportunidades de estágio.</p>
+        <p><strong>Descrição:</strong> Cursos de Power BI, HTML, CSS e lógica de programação com acompanhamento de mentores.</p>
+      </section>
+    </article>
 
     <section class="projects-list" aria-labelledby="voluntariado-title">
-      <section class="container">
-        <h2 id="voluntariado-title">Voluntariado</h2>
-        <p>Participe como voluntário e ajude estudantes a ingressar no mercado de trabalho. Você pode oferecer mentoria, palestras ou apoio em eventos educacionais.</p>
-
-        <article aria-labelledby="doacao-title">
-          <h3 id="doacao-title">Como Doar</h3>
-          <p>Sua doação ajuda a manter nossos programas e garantir mais oportunidades de estágio. Aceitamos doações financeiras e materiais, como equipamentos e livros.</p>
-          <p>Entre em contato pelo e-mail <a href="mailto:valentineestagios@gmail.com">valentineestagios@gmail.com</a> para saber como contribuir.</p>
-        </article>
+        <section class="container">
+          <h2 id="voluntariado-title">Voluntariado</h2>
+          <p>Participe como voluntário e ajude estudantes a ingressar no mercado de trabalho. Você pode oferecer mentoria, palestras ou apoio em eventos educacionais.</p>
+  
+          <article aria-labelledby="doacao-title">
+            <h3 id="doacao-title">Como Doar</h3>
+            <p>Sua doação ajuda a manter nossos programas e garantir mais oportunidades de estágio. Aceitamos doações financeiras e materiais, como equipamentos e livros.</p>
+            <p>Entre em contato pelo e-mail <a href="mailto:valentineestagios@gmail.com">valentineestagios@gmail.com</a> para saber como contribuir.</p>
+          </article>
+        </section>
       </section>
-    </section>
   </main>
 
-  <footer class="site-footer" role="contentinfo">
-    <section class="container">
-      <p>&copy; <span id="year"></span> ONG Valentine — Todos os direitos reservados.</p>
-      <ul class="social">
-        <li><a href="https://www.instagram.com/valentine_estagios" aria-label="Instagram">Instagram</a></li>
-      </ul>
+
+  <footer>
+    <section>
+      <p>&copy; 2025 ONG Valentine — Amar é transformar.</p>
+      <p><a href="mailto:contato@valentine.org">contato@valentine.org</a></p>
     </section>
   </footer>
-
-  <script>
-    document.getElementById('2025').textContent = new Date().getFullYear();
-  </script>
 </body>
 </html>

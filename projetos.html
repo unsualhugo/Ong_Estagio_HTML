@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Projetos e ações sociais da ONG Valentine Estágios.">
+  <title>Valentine Estágios — Projetos</title>
+</head>
+<body>
+  <header class="site-header">
+    <picture>
+      <img src="imagens/valentine-logo.png" alt="Logo ONG Valentine" width="140" height="100">
+    </picture>
+
+    <nav aria-label="Navegação principal">
+      <ul class="nav-list">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="projects-title">
+      <section class="container">
+        <h1 id="projects-title">Projetos e Ações Sociais</h1>
+        <p>Conheça nossos projetos que unem educação, estágio e impacto social. Cada ação é uma oportunidade para desenvolver habilidades e contribuir com a comunidade.</p>
+        <img src="imagens/Voluntarios-projeto-social.png" alt="Voluntários em um projeto social" width="900" height="600">
+      </section>
+    </section>
+
+    <section class="projects-list" aria-labelledby="voluntariado-title">
+      <section class="container">
+        <h2 id="voluntariado-title">Voluntariado</h2>
+        <p>Participe como voluntário e ajude estudantes a ingressar no mercado de trabalho. Você pode oferecer mentoria, palestras ou apoio em eventos educacionais.</p>
+
+        <article aria-labelledby="doacao-title">
+          <h3 id="doacao-title">Como Doar</h3>
+          <p>Sua doação ajuda a manter nossos programas e garantir mais oportunidades de estágio. Aceitamos doações financeiras e materiais, como equipamentos e livros.</p>
+          <p>Entre em contato pelo e-mail <a href="mailto:valentineestagios@gmail.com">valentineestagios@gmail.com</a> para saber como contribuir.</p>
+        </article>
+      </section>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <section class="container">
+      <p>&copy; <span id="year"></span> ONG Estágios — Todos os direitos reservados.</p>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/valentine_estagios" aria-label="Instagram">Instagram</a></li>
+      </ul>
+    </section>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

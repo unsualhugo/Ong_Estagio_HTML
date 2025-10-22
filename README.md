@@ -4,7 +4,7 @@ Bem-vindo(a) ao projeto **Valentine Estágios** — uma ONG dedicada a conectar 
 
 ---
 
-## 🏠 Páginas do Site
+##  Páginas do Site
 
 - Página Inicial*(`index.html`)  
   Apresenta a organização, missão, valores e informações de contato.  
@@ -18,7 +18,7 @@ Bem-vindo(a) ao projeto **Valentine Estágios** — uma ONG dedicada a conectar 
 
 ---
 
-## 💻 Como visualizar o site
+## Como visualizar o site
 
 Acesse o site hospedado no **GitHub Pages** pelo link abaixo:  
 
@@ -29,3 +29,4 @@ Acesse o site hospedado no **GitHub Pages** pelo link abaixo:
 - HTML5 Semântico  
 - Validações e máscaras de input nativas  
 - Estrutura acessível com uso de `aria-label` e `fieldset`
+

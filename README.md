@@ -1,6 +1,6 @@
 #  Valentine Estágios
 
-Bem-vindo(a) ao projeto **Valentine Estágios** — uma ONG dedicada a conectar estudantes a oportunidades de estágio e voluntariado, incentivando o crescimento profissional e pessoal de jovens talentos. 💼💚  
+Bem-vindo(a) ao projeto **Valentine Estágios** — uma ONG dedicada a conectar estudantes a oportunidades de estágio e voluntariado, incentivando o crescimento profissional e pessoal de jovens talentos. 
 
 ---
 
@@ -29,4 +29,5 @@ Acesse o site hospedado no **GitHub Pages** pelo link abaixo:
 - HTML5 Semântico  
 - Validações e máscaras de input nativas  
 - Estrutura acessível com uso de `aria-label` e `fieldset`
+
 

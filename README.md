@@ -26,9 +26,12 @@ Acesse o site hospedado no **GitHub Pages** pelo link abaixo:
 
 ## ⚙️ Tecnologias Utilizadas
 
-- HTML5 Semântico  
+- HTML5 Semântico
+- JavaScript
+- -CSS3
 - Validações e máscaras de input nativas  
 - Estrutura acessível com uso de `aria-label` e `fieldset`
+
 
 
 
